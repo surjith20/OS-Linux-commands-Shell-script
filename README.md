@@ -119,29 +119,31 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![alt text](img/grepHello.png)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![alt text](img/grep_hello.png)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-
+![alt text](img/grep-v.png)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
+![alt text](img/catgrepi.png)
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
+![alt text](img/catgrepic.png)
 
 
 
