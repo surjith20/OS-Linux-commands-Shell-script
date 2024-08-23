@@ -69,6 +69,7 @@ comm file1 file2
  
 diff file1 file2
 ## OUTPUT
+![alt text](img/diff.png)
 
 
 #Filters
