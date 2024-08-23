@@ -57,11 +57,12 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
-![alt text](<Screenshot 2024-08-23 at 10.25.52 AM.png>)
+![alt text](<img/Screenshot 2024-08-23 at 10.25.52 AM.png>)
 
  
 comm file1 file2
  ## OUTPUT
+ ![alt text](<img/Screenshot 2024-08-23 at 10.30.12 AM.png>)
 
  
 diff file1 file2
