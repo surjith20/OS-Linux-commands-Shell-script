@@ -48,21 +48,23 @@ cat < file1
 
 
 ## OUTPUT
-
+![alt text](<img/cat file1.png>)
 
 cat < file2
 ## OUTPUT
+![alt text](<img/cat file2.png>)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
-![alt text](<img/Screenshot 2024-08-23 at 10.25.52 AM.png>)
+![alt text](img/comp.png)
 
  
 comm file1 file2
  ## OUTPUT
- ![alt text](<img/Screenshot 2024-08-23 at 10.30.12 AM.png>)
+ ![alt text](img/comm.png)
+
 
  
 diff file1 file2
