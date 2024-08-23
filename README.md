@@ -48,7 +48,6 @@ cat < file1
 
 
 ## OUTPUT
-![alt text](<img/Screenshot 2024-08-22 at 4.21.08 PM.png>)
 
 
 cat < file2
@@ -58,6 +57,8 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+![alt text](<Screenshot 2024-08-23 at 10.25.52 AM.png>)
+
  
 comm file1 file2
  ## OUTPUT
