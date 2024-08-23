@@ -39,10 +39,16 @@ lalit chowdury
 s.n. dasgupta
 ^d
 ```
+// git add-h
+// git commit
+// git origin
+
 ### Display the content of the files
 cat < file1
-## OUTPUT
 
+
+## OUTPUT
+![alt text](<img/Screenshot 2024-08-22 at 4.21.08 PM.png>)
 
 
 cat < file2
