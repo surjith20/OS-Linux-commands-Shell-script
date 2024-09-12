@@ -852,8 +852,8 @@ do
 echo "Visit beautiful $file“
 done
 ```
-$ chmod 777 forinfile.sh
-$ cat cities
+
+cat cities
 Hyderabad
 Alampur
 Basara
@@ -862,8 +862,10 @@ Adilabad
 Bhadrachalam
 Khammam
 
+$ chmod 777 forinfile.sh
+$./forinfile.sh
 ## OUTPUT
-
+![alt text](img/forinfile.png)
 
 cat forctype.sh 
 ```bash
@@ -877,6 +879,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![alt text](img/forctype.png)
 
 cat forctype1.sh 
 ```bash
@@ -887,9 +890,10 @@ do
 echo "$a - $b"
 done
 ```
-$ chmod 755 forctype.sh
+$ chmod 755 forctype1.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![alt text](img/forctype1.png)
 
 cat fornested1.sh 
 ```bash
@@ -908,7 +912,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
+![alt text](img/forneseted1.png)
  
 cat forbreak.sh 
 ```bash
@@ -924,13 +928,15 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
+
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
+## OUTPUT
+![alt text](img/forbreak.png)
  
-cat forbreak.sh 
+cat forcontinue.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -942,7 +948,7 @@ continue
 fi
 echo "Iteration number: $var1"
 done
-echo "The for loop is completed“
+echo "The for loop is completed"
 ```
 
  
@@ -950,7 +956,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+![alt text](img/forcontinue.png)
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -964,22 +971,22 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-
+![alt text](img/exread.png)
 
  cat exread1.sh
 ```bash
 #!/bin/bash
 # testing the read command
 read -p "Enter your name: " name
-echo "Hello $name, welcome to my program. “
+echo "Hello $name, welcome to my program. "
 ``` 
 $ chmod 755 exread1.sh 
-
-## OUTPUT
-
-
-
 $ ./exread1.sh 
+## OUTPUT
+![alt text](img/exread1.png)
+
+
+
  
 cat funcex.sh
 ```bash
@@ -996,12 +1003,13 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
+
 ## OUTPUT
  ./funcex.sh 
-
+![alt text](img/funcex.png)
  
  ./funcex.sh 1 2
-
+![alt text](img/funcex123.png)
  
 cat argshift.sh
 ```bash
@@ -1015,7 +1023,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+![alt text](img/argshift.png)
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1029,11 +1038,12 @@ for (( i=0;i<$ELEMENTS;i++)); do
     echo ${args[${i}]} 
 done
 ```
-$ chmod 777 argshift.sh
+$ chmod 777 argshift1.sh
 ## OUTPUT
-$ ./argshift.sh 1 2 3
- 
-cat argshift.sh
+$ ./argshift1.sh 1 2 3
+![alt text](img/argshift1.png)
+
+cat argshift3.sh
 ```bash
 #!/bin/bash 
 set -x 
@@ -1041,11 +1051,11 @@ while (( "$#" )); do
   echo $1 
   shift 
 done
-set +x
+set +xch
 ```
 ## OUTPUT
- ./argshift.sh 1 2 3
- 
+ ./argshift3.sh 1 2 3
+ ![alt text](img/argshift3.png)
  
 cat > nc.awk
 ```bash
@@ -1076,6 +1086,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+![alt text](img/awk.png)
  
 cat > palindrome.sh
 ```bash
@@ -1103,7 +1114,7 @@ else
 fi
 ```
 ## OUTPUT 
-
+![alt text](img/pallindrome.png)
 
 # RESULT:
 The Commands are executed successfully.
