@@ -337,7 +337,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![alt text](img/sort.png)
 
 cat > file22
 ```
@@ -350,6 +350,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+![alt text](img/uniq.png) 
 
 
 
@@ -357,6 +358,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![alt text](img/catfile23.png)
 
 cat < urllist.txt
 ```
@@ -373,48 +375,49 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
+![alt text](img/caturl1.png)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
+![alt text](img/caturl2.png)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
+![alt text](img/tar1.png)
 
 mkdir backupdir
  
 mv backup.tar backupdir
  
-tar -tvf backup.tar
 ## OUTPUT
-
+![alt text](img/mv1.png)
 
 tar -xvf backup.tar
 ## OUTPUT
+![alt text](img/tar2.png)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+![alt text](img/ls1.png)
+
 gunzip backup.tar.gz
 ## OUTPUT
-
+![alt text](img/ls2.png)
  
 # Shell Script
 ```
 echo '#!/bin/sh' > my-script.sh
-echo 'echo Hello World‘; exit 0 >> my-script.sh
+echo 'echo Hello World'; exit 0 >> my-script.sh
 ```
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-
+![alt text](img/echo1.png)
  
 cat << stop > herecheck.txt
 ```
@@ -426,7 +429,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
+![alt text](img/catherecheck.png)
 
 cat < scriptest.sh 
 ```bash
@@ -464,24 +467,28 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-
+![alt text](img/catscriptcheck.png)
  
 ls file1
 ## OUTPUT
+![alt text](img/ls_1.png)
 
 echo $?
 ## OUTPUT 
+![alt text](img/echo_1.png)
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+![alt text](img/echo_3.png) 
+
 abcd
  
 echo $?
- ## OUTPUT
-
+## OUTPUT
+![alt text](img/echo_2.png)
 
  
 # mis-using string comparisons
@@ -512,15 +519,15 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
-
+## OUTPUT
+![alt text](img/cat_Strcmp.png)
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-
+![alt text](img/strcmp.png)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -547,6 +554,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![alt text](img/psswdperm.png)
 
 # check if with file location
 cat>ifnested.sh 
@@ -593,7 +601,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
+![alt text](img/ifnested.png)
 
 
 # using numeric test comparisons
