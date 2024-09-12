@@ -222,8 +222,8 @@ egrep 'Linux.*world' newfile
 ![alt text](img/egrep9.png)
 
 egrep 'Linux.*World' newfile 
-## OUTPU!
-[alt text](img/egrep10.png)T
+## OUTPUT
+![alt text](img/egrep10.png)
 
 
 egrep l{2} newfile
