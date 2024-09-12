@@ -645,6 +645,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+![alt text](img/iftest.png)
 
 # check if a file
 cat > ifnested.sh 
@@ -694,6 +695,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+![alt text](img/ifnested.png)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -722,7 +724,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-
+![alt text](img/elifcheck.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -738,6 +740,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![alt text](img/ifcompound.png)
 
 # using the case command
 cat >casecheck.sh 
@@ -757,7 +760,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+## OUTPUT
+![alt text](img/casecheck.png)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -772,7 +777,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+## OUTPUT
+![alt text](img/whiletest.png)
  
 cat untiltest.sh 
 ```bash
@@ -785,7 +791,9 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
+$ ./untiltest.sh
+## OUTPUT
+![alt text](img/untiltest.png)
  
  
 cat forin1.sh 
@@ -799,7 +807,9 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+$ ./forin1.sh
+## OUTPUT
+![alt text](img/forin1.png)
  
 cat forin2.sh 
 ```bash
@@ -812,19 +822,10 @@ done
  ```
  
 $ chmod 755 forin2.sh
+$ ./forin2.sh
+## OUTPUT
+![alt text](img/forin2.png)
  
-cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
-```
-$ chmod 755 forin2.sh
- 
-$ ./forin2.sh 
  
 cat forin3.sh 
 ```bash
@@ -835,20 +836,12 @@ do
 echo "word:$test"
 done
 ```
-$ ./forin3.sh 
- 
-cat forin1.sh 
-```bash
-#!/bin/bash
-# basic for command
-for test in Alabama Alaska Arizona Arkansas California Colorado
-do
-echo The next state is $test
-done
-```
-$ chmod 755 forin1.sh
 
+$ chmod 755 forin3.sh
+$ ./forin3.sh 
 ## OUTPUT
+![alt text](img/forin3.png)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
